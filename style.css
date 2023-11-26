@@ -1,0 +1,227 @@
+
+
+
+body {
+ 
+    margin: 0;
+    padding: 0;
+     
+      background: linear-gradient(to right, #fff , #A1CCD1);
+
+    
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+
+  }
+
+.rotated-image {
+    text-align: right;
+    align-items: center;
+    width: 250px;
+  
+    margin-left: 900px;
+    vertical-align: top;
+    margin-top: -120px;
+    max-width: 100%;
+  height: auto;
+}
+.custom-button button {
+  background-color: rgb(58, 70, 81);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.custom-button button:hover {
+  background-color: #4695A3;
+}
+
+.custom-button button:active {
+  background-color: #3E7E88;
+}
+
+
+
+.présentation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alignement des éléments sur la gauche */
+  margin-top: 140px; /* Espace entre le logo et le contenu */
+}
+.présentation h2 {
+  text-align: center;
+   align-items: center;
+   color: black;
+   margin-left: 40px;
+}
+
+.présentation p {
+   color: black;
+   
+   margin-left: 40px;
+   font-size: larger;
+   font-style: italic;
+   align-items: center;
+}
+
+.présentation span {
+   color: #B31312;
+}
+.photo2 {
+  float: right;
+  /* Vous pouvez ajouter un espacement entre l'image et le contenu si nécessaire */
+  margin-left: 50px;
+  margin-right: 130px;
+  margin-top: 6%;
+  max-width: 450px;
+height: auto;}
+
+
+.photo1 {
+  float: right;
+  /* Vous pouvez ajouter un espacement entre l'image et le contenu si nécessaire */
+  margin-left: 50px;
+  margin-right: 130px;
+  margin-top: 6%;
+  max-width: 450px;
+height: auto;}
+
+
+img.password {
+  max-width: 100px; /* Ajustez la taille de l'image selon vos besoins */
+  display: block; /* Pour centrer l'image horizontalement */
+  margin: 0 auto;
+margin-top: -60px;}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+  
+ 
+  
+}
+
+.content {
+ 
+  padding: 20px;
+  border-radius: 10px;
+ margin-top: -100px;
+  text-align: center;
+
+}
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.container span {
+  color: #B31312;
+}
+input[type="submit"] {
+  background-color: rgb(58, 70, 81);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* ... Vos styles précédents ... */
+
+/* Ajoutez des transitions aux champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    /* ... Autres styles ... */
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Ajoutez des styles pour les interactions */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #3498db; /* Couleur de la bordure en focus */
+    box-shadow: 0px 0px 8px rgba(52, 152, 219, 0.6); /* Ombre en focus */
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    border-color: #95a5a6; /* Couleur de la bordure en hover */
+    box-shadow: 0px 0px 8px rgba(149, 165, 166, 0.6); /* Ombre en hover */
+}
+
+/* ... Vos styles précédents ... */
+
+
+
+
+.error.display-error{
+  display: block;
+  margin-bottom: 20px;
+  transform: translateY(-20px);
+}
+.error{
+  color: #af4242;
+  background-color: #fde8ec;
+  padding: 10px;
+  display: none;
+}
+
+/* CSS */
+.success {
+  display: none;
+  margin-bottom: 30px;
+  color: green;
+  background-color: #d2ffd2;
+  padding: 10px;
+}
+
+.success.display-success {
+  display: block;
+}
+
+/* Styles de base pour les écrans larges */
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin: 20px; /* Ajouter un peu d'espace autour du logo */
+}
+
+/* Style pour le message d'erreur */
+.error-message {
+  color: red;
+ 
+ 
+  padding: 10px;
+  background-color: #fde8ec;
+}
+
+
+
+
+
+
